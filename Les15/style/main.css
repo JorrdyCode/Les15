@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(95, 95, 95);
+    padding:5px;
+}
+header{
+    color: white;
+    padding:5px;
+}
+li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid green;
+    border-right: 1px solid green;
+    background-color: olive;
+}
+li:hover{
+    background-color: lightgreen;
+    border-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+    text-decoration:none;
+}
+h1{
+    margin-left: 100px;
+}
+p{
+    margin-left: auto;
+    margin-right:auto;
+    color:rgb(157, 250, 95);
+    width:70%;
+    text-align:center;
+}
+img{
+    margin: 10px;
+}
+footer{
+    padding:5px;
+    margin:5px;
+    color: rgb(240, 144, 20);
+}
+table{
+    border-collapse: collapse;
+    border: 5px;
+    color: rgb(55, 255, 188);
+    text-align:center;
+    margin:auto;
+}
+td, tr{
+    padding: 10px 25px;
+
+}
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin:auto;
+    width:400px;
+    box-sizing:border-box;
+}
+button:active{
+    background-color:rgba(255, 255, 255, 0.623);
+    color: white;
+}
+h3{
+    color:rgb(127, 197, 255);
+    text-align:center;
+}
+img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width:30%;
+}
+#formulier{
+    margin-left: auto;
+    margin-right:auto;
+    width:2000px;
+    text-align:center;
+    display:block;
+}
